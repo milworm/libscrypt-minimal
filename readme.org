@@ -5,6 +5,7 @@ Tries to isolate the the key derivation function from the code of the "scrypt" u
 
 * Status
 Earliest stage - Does not pass any tests yet.
+
 ./build/make.sh creates a library, ./build/install.sh installs it, there is a header file that can be included, and using the provided "scrypt" function in a c program, /something/ is returned.
 
 * Scrypt resources
@@ -14,6 +15,7 @@ Earliest stage - Does not pass any tests yet.
 ** Some interesting scrypt projects:
 - http://git.chromium.org/gitweb/?p=chromiumos/third_party/libscrypt.git;a=summary
 - https://github.com/scintill/scrypt
+- https://pypi.python.org/pypi/scrypt/
 - https://github.com/barrysteyn/node-scrypt
 - https://github.com/pbhogan/scrypt
 - https://github.com/viking/scrypty

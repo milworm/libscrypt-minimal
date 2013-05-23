@@ -1,0 +1,4 @@
+version_1 {
+  global: scrypt;
+  local: *;
+};
