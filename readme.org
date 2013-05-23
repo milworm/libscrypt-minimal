@@ -1,7 +1,7 @@
 * libscrypt-minimal
 C implementation of the scrypt key derivation function as a library.
 
-Tries to isolate the the key derivation function from the code of the "scrypt" utility written by C. Percival.
+Tries to isolate the key derivation function from the code of the "scrypt" utility written by C. Percival.
 
 * Status
 Earliest stage - Does not pass any tests yet.
