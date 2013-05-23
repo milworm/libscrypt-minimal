@@ -1,0 +1,19 @@
+* libscrypt-minimal
+C implementation of the scrypt key derivation function as a library.
+
+Tries to isolate the the key derivation function from the code of the "scrypt" utility written by C. Percival.
+
+* Status
+Earliest stage - Does not pass any tests yet.
+./build/make.sh creates a library, ./build/install.sh installs it, there is a header file that can be included, and using the provided "scrypt" function in a c program, /something/ is returned.
+
+* Scrypt resources
+- http://tools.ietf.org/id/draft-josefsson-scrypt-kdf-01.txt
+- http://www.tarsnap.com/scrypt.html
+
+** Some interesting scrypt projects:
+- http://git.chromium.org/gitweb/?p=chromiumos/third_party/libscrypt.git;a=summary
+- https://github.com/scintill/scrypt
+- https://github.com/barrysteyn/node-scrypt
+- https://github.com/pbhogan/scrypt
+- https://github.com/viking/scrypty
