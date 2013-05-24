@@ -1,1 +1,1 @@
-gcc -lscrypt --std=c11 test/main.c -o test/test && test/test
+gcc -lscrypt --std=c11 test/test.c -o temp/test && temp/test
