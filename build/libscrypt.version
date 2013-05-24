@@ -1,4 +1,4 @@
-version_1 {
+exports {
   global: scrypt;
   local: *;
 };
