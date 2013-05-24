@@ -22,6 +22,9 @@ The parameter N must be a power of 2.
 Return 0 on success; or -1 on error.
 }}}
 
+== See also
+https://github.com/jkalbhenn/scrypt
+
 == Scrypt resources
 * http://tools.ietf.org/id/draft-josefsson-scrypt-kdf-01.txt
 * http://www.tarsnap.com/scrypt.html
